@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In App.css or index.css */
+@font-face {
+    font-family: 'JameelNooriNastaleeq';
+    src: url('./assets/fonts/JameelNooriNastaleeq.ttf') format('truetype');
+  }
+  
