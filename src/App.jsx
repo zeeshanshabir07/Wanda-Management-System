@@ -10,7 +10,7 @@ const AppContent = () => {
 
   return (
     <div className="h-screen bg-gray-100 flex items-center justify-center">
-      {loggedinUser ? <Dashboard /> : <HomePage />}
+       <Dashboard /> 
     </div>
   );
 };
