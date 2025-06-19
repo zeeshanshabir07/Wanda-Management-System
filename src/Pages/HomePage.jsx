@@ -20,7 +20,7 @@ const HomePage = () => {
 
         {/* Right Section */}
         <div className="sm:w-2/4  w-full bg-white p-8 flex items-center justify-center">
-         {/* <RegisterUser/> */}
+         <RegisterUser/>
           <LoginUser/>
         </div> 
       </div>
