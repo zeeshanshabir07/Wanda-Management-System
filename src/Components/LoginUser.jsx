@@ -83,8 +83,16 @@ const LoginUser = () => {
       )}
 
       <p className="mt-4 text-center text-sm text-gray-600">
-        Don't have an account? <a href="#" className="text-blue-500 font-medium hover:underline">Sign Up</a>
-      </p>
+  Don't have an account?{" "}
+  <a
+    href="#"
+    onClick={() => (window.location.href = "/RegisterUser")}
+    className="text-blue-500 font-medium hover:underline"
+  >
+    Sign Up
+  </a>
+</p>
+
 
       <p className="mt-4 text-center text-sm flex justify-center gap-4">
         <a href="#" className="p-2 bg-gray-200 rounded-full hover:bg-blue-500 text-blue-700 hover:text-white transition">
