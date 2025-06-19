@@ -5,11 +5,12 @@ import { UserContext } from '../Context/GlobalContext';
 const LoginUser = () => {
     const { setLoggedInUser } = useContext(UserContext);
   const [message, setMessage] = useState('');
-  const [loginUser, setLoginUser] = useState({
-    userName: '',
-    password: '',
-    status: 'approved'
-  });
+const [loginUser, setLoginUser] = useState({
+  userName: 'zeeshan',
+  password: '123',
+  status: 'approved'
+});
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
